@@ -1,9 +1,20 @@
 {
-  "devDependencies": {
-    "gulp": "^5.0.0",
-    "gulp-file-include": "^2.3.0"
-  },  "scripts": {
-    "build": "wasm-pack build --release --out-dir www/pkg",
-    "start": "npm run build && cd www & http-server -p 8137 -c-1"
-  }
+  "name": "glaum-consciousness",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terra-exe/Glaum-Consciousness.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Terra-exe/Glaum-Consciousness/issues"
+  },
+  "homepage": "https://github.com/Terra-exe/Glaum-Consciousness#readme"
 }
