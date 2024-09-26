@@ -1,0 +1,17 @@
+{
+  "name": "my_rust_wasm_app",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "my_rust_wasm_app_bg.wasm",
+    "my_rust_wasm_app.js",
+    "my_rust_wasm_app_bg.js",
+    "my_rust_wasm_app.d.ts"
+  ],
+  "main": "my_rust_wasm_app.js",
+  "types": "my_rust_wasm_app.d.ts",
+  "sideEffects": [
+    "./my_rust_wasm_app.js",
+    "./snippets/*"
+  ]
+}
