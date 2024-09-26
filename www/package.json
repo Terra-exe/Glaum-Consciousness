@@ -1,0 +1,16 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "browser-sync": "^3.0.3",
+    "del": "^7.1.0",
+    "gulp": "^5.0.0",
+    "gulp-file-include": "^2.3.0"
+  }
+}
