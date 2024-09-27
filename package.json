@@ -8,7 +8,7 @@
     "build": "echo BUILDING && npm run build:wasm && webpack && echo DONE!",
     "start": "echo STARTING && npx serve dist"
   },
-  "repository": {
+  "repository": { 
     "type": "git",
     "url": "git+https://github.com/Terra-exe/Glaum-Consciousness.git"
   },
@@ -24,12 +24,11 @@
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.0",
     "style-loader": "^4.0.0",
+    "wasm-pack": "^0.0.0",
     "webpack": "^5.95.0",
-    "webpack-cli": "^5.1.4",
-    "wasm-bindgen": "^0.2.93"
-
+    "webpack-cli": "^5.1.4"
   },
   "dependencies": {
     "inter-ui": "^4.0.2"
   }
-} 
+}
