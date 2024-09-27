@@ -1,2 +1,17 @@
 package.json
 "start": "webpack serve --open"
+
+
+
+First ls . output:
+
+You are listing the contents of the current directory. This includes:
+Project-related files: LICENSE, README.md, package.json, package-lock.json.
+Compiled or distribution folders: dist.
+Source code directories: src, node_modules.
+Other configuration and notes files: webpack.config.js, notes.txt, rust-wasm.
+Second ls ../. output:
+
+This is listing the contents of the parent directory. You're seeing the standard system directories:
+bin, boot, dev, etc, home, lib, lib64, etc.
+These are system-level directories found in Linux/Unix-like operating systems.
