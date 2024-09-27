@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:wasm": "echo HELLO WORLD && ls -R && rust update  && HELLO WORLD2 && wasm-pack build rust-wasm --out-dir rust-wasm/pkg --target web",
+    "build:wasm": "echo HELLO WORLD && ls . && ls . && ls ../. && HELLO WORLD2 && wasm-pack build rust-wasm --out-dir rust-wasm/pkg --target web",
     "build": "echo BUILDING && npm run build:wasm && webpack && echo DONE!",
     "start": "echo STARTING && npx serve dist"
   },
@@ -25,7 +25,9 @@
     "html-webpack-plugin": "^5.6.0",
     "style-loader": "^4.0.0",
     "webpack": "^5.95.0",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "wasm-bindgen": "^0.2.93"
+
   },
   "dependencies": {
     "inter-ui": "^4.0.2"
