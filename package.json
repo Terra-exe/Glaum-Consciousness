@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build:wasm": "echo HELLO WORLD && wasm-pack build rust-wasm --out-dir rust-wasm/pkg --target web",
-    "build": "npm run build:wasm && webpack",
-    "start": "echo test && npx serve dist"
+    "build": "echo BUILDING && npm run build:wasm && webpack && echo DONE!",
+    "start": "echo STARTING && npx serve dist"
   },
   "repository": {
     "type": "git",
