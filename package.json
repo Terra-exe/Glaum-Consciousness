@@ -6,7 +6,7 @@
   "scripts": {
     "build:wasm": "wasm-pack build rust-wasm --out-dir rust-wasm/pkg --target web",
     "build": "npm run build:wasm && webpack",
-    "start": "webpack serve --open"
+    "start": "npm run build && npx serve dist"
   },
   "repository": {
     "type": "git",
