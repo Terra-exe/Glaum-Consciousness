@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:wasm": "echo HELLO WORLD && tree -L 3 && rust update  && HELLO WORLD2 && wasm-pack build rust-wasm --out-dir rust-wasm/pkg --target web",
+    "build:wasm": "echo HELLO WORLD && ls -R && rust update  && HELLO WORLD2 && wasm-pack build rust-wasm --out-dir rust-wasm/pkg --target web",
     "build": "echo BUILDING && npm run build:wasm && webpack && echo DONE!",
     "start": "echo STARTING && npx serve dist"
   },
